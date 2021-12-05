@@ -46,7 +46,6 @@ input{
 .button49{
     width: 60px;
     height: 25px;
-    border: 1px solid aqua;
     color: aqua;
     background-color: black;
     cursor: pointer;
@@ -58,7 +57,6 @@ input{
 .menu{
     width: 1340px;
     /* height: 400px; */
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,9 +65,6 @@ input{
 }
 .menu1{
     width: 850px;
-    /* height: 400px; */
-    border: 1px solid black;
-    
 }
 .menu1 > h3{
     text-align: center;
@@ -80,20 +75,45 @@ input{
 .main-item{
     width: 1340px;
     height: 400px;
-    border: 1px solid black;
     display: flex;
-    
     align-items: center;
     justify-content:space-around;
 }
+.item3 > img{
+    width:300px;
+    height: 200px;
+}
+.item2 > img{
+    width:300px;
+    height: 200px;
+}
+.item1 > img{
+    width:300px;
+    height: 200px;
+}
 .item1 {
     width: 300px;
+    border: 1px solid rgba(0, 0, 0, .5);
 
 }
 .item2 {
     width: 300px;
+    border: 1px solid rgba(0, 0, 0, .5);
 
 }.item3 {
     width: 300px;
+    border: 1px solid rgba(0, 0, 0, .5);
 
+}
+.btn6{
+    background-color:green;
+    color: white;
+}
+.btn5{
+    background-color:red;
+    color: white;
+}
+.btn4{
+    background-color:blueviolet;
+    color: white;
 }
